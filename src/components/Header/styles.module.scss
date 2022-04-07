@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border: 2px solid rgba(163, 163, 163, 0.329);
+}
+
+.containerList{
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div{
+      margin: 0 10px;
+      opacity: 0.7;
+      cursor: pointer;
+
+      input{
+        padding: 3px 0;
+        padding-left: 20px;
+        padding-right: 35px;
+        background-color: rgba(216, 216, 216, 0.548);
+        color: rgb(0, 0, 0);
+
+        &:focus{
+          outline: none;
+        }
+      }
+
+      .icons{
+        margin-right: 5px;
+      }
+
+      .angle{
+        margin-left: 5px;
+      }
+
+      &:hover{
+        opacity: 1;
+      }
+
+      .iconSearch{
+        position: absolute;
+        right: 5px;
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,111 @@
+.main {
+  padding: 10px 20px;
+  background-color: #F4F6F9;
+
+  .pagTitle{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 10px;
+  }
+
+  .titleContainer{
+    padding: 5px 0;
+    background: #007bff;
+    height: 100%;
+
+    .title{
+      display: flex;
+      color: white;
+      align-items: center;
+      margin-left: 30px;
+      width: 100%;
+
+      h1{font-size: 1.2rem; padding-bottom: 5px;}
+    }
+  }
+}
+
+.boxDad{
+  background: white;
+}
+
+.formBox{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.boxChild{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  label{
+    font-size: 1rem;
+    font-weight: bold;
+    span{color: red;}
+  }
+
+  .titleContainerChild{
+    padding: 10px 0;
+    background: #17A2B8;
+    color: white;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    .titleChild{
+      padding-left: 20px;
+    }
+  }
+
+}
+
+.boxChildTwo{
+
+  label{
+    font-size: 1rem;
+    font-weight: bold;
+    span{color: red;}
+  }
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  .titleContainerChildTwo{
+    padding: 10px 0;
+    background: #6C757D;
+    color: white;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  
+    .titleChild{
+      padding-left: 20px;
+    }
+  }
+
+}
+
+.buttonsGroup{
+  display: flex;
+  margin-top: 10px;
+  padding: 20px 10px;
+  background: #5a5a5a18;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -10px;
+
+  .button{
+    background-color: transparent;
+    margin-left: 20px;
+    border: 1px solid rgba(145, 145, 145, 0.932);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+}

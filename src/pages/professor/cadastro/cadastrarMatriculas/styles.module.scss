@@ -1,0 +1,131 @@
+.main {
+  padding: 10px 20px;
+  background-color: #f4f6f9;
+
+  .pagTitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 10px;
+
+    span {
+      color: #007bff;
+    }
+  }
+
+  .titleContainer {
+    padding: 10px 0;
+    background: #007bff;
+    height: 100%;
+
+    .title {
+      color: white;
+      padding-left: 20px;
+
+      h1 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .boxDad {
+    background: white;
+
+    label{
+      font-size: 1rem;
+      font-weight: bold;
+      span{color: red;}
+    }
+  }
+
+  .boxFormGrid{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .groupFormGrid{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    div{
+      display: flex;
+      height: 40px;
+
+      button{
+        display: flex;
+        max-width: 170px;
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+
+    }
+
+    .selectOne{
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: 1px solid rgba(187, 187, 187, 0.597);
+      padding: 5px 10px;
+
+      &:focus{outline: none;}
+    }
+
+  }
+
+  .allGroupForm{
+    width: 100%;
+    margin-left: 10px;
+    gap: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .selectTwo{
+      max-width: 500px;
+      width: 100%;
+      border: 1px solid rgba(187, 187, 187, 0.597);
+      padding: 5px 10px;
+      border-radius: 5px;
+      height: 40px;
+
+      &:focus{outline: none;}
+    }
+
+  }
+
+}
+
+.buttonsGroup {
+  display: flex;
+  margin-top: 10px;
+  padding: 20px 10px;
+  background: #5a5a5a18;
+
+  .button{
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    margin-left: 20px;
+    border: 1px solid rgba(145, 145, 145, 0.932);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    transition: all 0.5s;
+
+    .icon{
+      font-size: 1.5rem;
+      margin-right: 5px;
+    }
+
+    &:hover{
+      background-color: #5c5c5ccb;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,138 @@
+.aside{
+  position: relative;
+  background: #343a40;
+  color: white;
+  border-right: 2px solid rgba(0, 0, 0, 0.479);
+  
+  hr{
+    margin: 15px 0;
+    border: 1px solid rgba(163, 163, 163, 0.329);
+  }
+
+  font-weight: 500;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+}
+
+.asideHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .asideLogo{
+    margin-top: 20px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+
+    .logo{
+      font-size: 70px;
+      color: rgb(0, 225, 255);
+      margin: auto;
+    }
+
+  }
+
+  span{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  margin: 10px;
+  border-radius: 5px;
+  
+  cursor: pointer;
+
+  a{
+    display: flex; 
+    align-items: center; 
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.726);
+    
+    &:hover{
+      color: white;
+      background: #e2e2e248;
+      transition: 0.3s ease;
+    }
+  }
+
+  .subMenu {
+    display: none;
+      a{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding-left: 15px;
+
+        &:hover{
+          background: #e2e2e248;
+          transition: 0.3s ease;
+        }
+      }
+  }
+
+  .angle{
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    transition: all 0.4s;
+  }
+
+  .rotate{transform: rotate(90deg);}
+
+  .subMenuOpen{display: none;}
+
+}
+
+.asideTwo{
+  position: relative;
+  background: #343a40;
+  color: white;
+  width: 80px;
+  border-right: 2px solid rgba(0, 0, 0, 0.479);
+  
+  hr{
+    margin: 15px 0;
+    border: 1px solid rgba(163, 163, 163, 0.329);
+  }
+
+  font-weight: 500;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+
+  .asideHeader{
+    display: flex;
+    flex-direction: column;
+  
+    .asideLogo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width: 50px;
+      height: 50px;
+  
+      .logo{
+        font-size: 3.5rem;
+        color: rgb(0, 225, 255);
+      }
+    }
+  }
+
+}
+
+
+

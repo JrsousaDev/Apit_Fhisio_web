@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "jquery-mask-plugin": "registry:dt/jquery-mask-plugin#1.14.0+20170324151803"
+  }
+}

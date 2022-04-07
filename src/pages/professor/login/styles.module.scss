@@ -1,0 +1,97 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--blue-900);
+}
+
+.card{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--gray-100);
+  color: var(--black);
+  width: 480px;
+  height: 650px;
+
+  .logo{
+    width: 171px;
+    height: 176px;
+  
+    img{
+      width: 100%;
+    }
+  }
+
+  span{
+    position: absolute;
+    top: -16px;
+    left: 1px;
+    font-weight: lighter;
+    color: rgb(99, 98, 98);
+  }
+
+  h4{
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+
+  .containerInputs{
+    position: relative;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+
+    input{
+      width: 100%;
+      margin: 0.5rem 0;
+      height: 40px;
+      padding-left: 10px;
+      border: 2px solid rgba(187, 184, 184, 0.623);
+
+      &:focus {
+        outline: none;
+        border: 1px solid rgb(0, 165, 177);
+      }
+
+    }
+
+    .icons{
+      font-size: 1.2rem;
+      position: absolute;
+      right: 10px;
+      top: 18px;
+      opacity: 0.6;
+
+      &:nth-child(2){
+        right: 10px;
+        top: 74px;
+      }
+    }
+  }
+
+  .containerButtons{
+    margin-top: 20px;
+    width: 85%;
+  }
+
+  .checkbox{
+    display: flex;
+    align-items: center;
+
+    input{
+      height: 17px;
+      width: 17px;
+      margin-right: 5px;
+      margin-left: 1px;
+    }
+  }
+
+}
+
+
+

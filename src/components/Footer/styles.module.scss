@@ -1,0 +1,24 @@
+.footer{
+  background-color: white;
+  border-top: 1px solid rgba(163, 163, 163, 0.329);
+}
+
+.containerList{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 10px 0;
+  color: rgb(138, 136, 136);
+
+  div{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+
+    strong{
+      color: rgba(32, 32, 32, 0.575);
+    }
+
+  }
+
+}
