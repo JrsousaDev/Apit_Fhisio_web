@@ -43,7 +43,8 @@ export default function Login() {
     }
 
     try {
-      await loginEnterprise({ email, password });
+      const response = await loginEnterprise({ email, password });
+      console.log(response)
       Router.push('/error', '/professor/dashboard');
     } catch (err) {
       if(err.message === 'Usuário não cadastrado como EMPRESA, Por favor logue no portal do Paciente!'){

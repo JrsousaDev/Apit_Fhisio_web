@@ -12,7 +12,7 @@ import styles from './styles.module.scss';
 
 export default function Header() {
   const { toggleOpenMenu } = useContext(MenuContext);
-  const { user } = useContext(AuthContext);
+  const { user, logout } = useContext(AuthContext);
 
   const [ openModalPassword, setOpenModalPassword ] = useState(false);
 
@@ -39,7 +39,7 @@ export default function Header() {
         <div><IoMdHelpCircle className={styles.icons}/> Ajuda
           <GoTriangleDown className={styles.angle}/>
         </div>
-        <div>
+        <div onClick={logout}>
           <FaUser className={styles.icons}/> 
           {user?.name} 
           <GoTriangleDown className={styles.angle}/>
